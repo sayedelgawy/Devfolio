@@ -1,0 +1,56 @@
+
+@media screen and (max-width: 1024px) {
+  #home {
+    background-attachment: scroll;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /* <home> */
+  .nav-item .underline::before {
+    left: 0;
+    background-color: #000;
+  }
+  nav [id="navbarSupportedContent"] {
+    background-color: white;
+  }
+  .nav-item .underline {
+    color: #000 !important;
+  }
+
+  /* </home> */
+}
+
+@media screen and (max-width: 767px) {
+  /* <general> */
+  html {
+    font-size: 14px;
+  }
+  /* </general> */
+
+  /* <testimonial> */
+  .textimonial .w-special {
+    width: 90%;
+  }
+  /* </testimonial> */
+}
+
+@media screen and (max-width: 576px) {
+  /* <general> */
+  html {
+    font-size: 12px;
+  }
+  /* </general> */
+
+  /* <about> */
+  .about .about-info {
+    padding-top: 20px;
+  }
+  /* </about> */
+
+  /* <testimonial> */
+  .textimonial .w-special {
+    width: 100%;
+  }
+  /* </testimonial> */
+}
